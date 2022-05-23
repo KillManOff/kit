@@ -2,34 +2,19 @@
 	font-family: Arial, bold;
 }
 
-
-body{
-  background-color: #fff;
-}
-
 .text{
   position: absolute; 
-	right: 35%;
+  right: 39%;
   padding-left: 410px;
 }
 
-
-.pre_outils a , .pre_tache a{
-  text-decoration: none;
+.pre_glossaire h2{
+  color: #00643e;
+  font-family: Arial, bold;
 }
 
-.pre_outils a:hover, .pre_tache a:hover{
-  color: green;
-}
-
-.pre_outils_gauche{
-  position: absolute;
-  left: 23.5%;
-}
-
-.pre_outils_droite{
-  position: absolute;
-  right: 9%
+body{
+  background-color: #fff;
 }
 
 .rechercher{
@@ -45,21 +30,6 @@ body{
 .rechercher img{
   height: 20px;
   width: 20px;
-}
-
-.Presentation{
-  margin-left: 350px;
-  margin-right: 130px;
-  text-align: justify;
-}
-
-.polecyber ,.outils, .tache{
-  color: #00643e;
-  font-family: Arial, bold;
-}
-
-h4{
-  font-size: 1.08em;
 }
 
 
@@ -144,4 +114,34 @@ html{
   top: 90%;
   width: 5%;
   position: fixed;
+}
+
+table{
+  border-collapse: collapse;
+  width: 1000px;
+}
+
+table tr:nth-child(odd) {
+    background-color: #d7d7d7; 
+}
+
+table th, table{
+  border: 1.5px solid black;
+  padding: 10px;
+}
+
+td{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+
+.pre_glossaire{
+  margin-top: 75px;
+  margin-left: 300px;
+  margin-right: 130px;
+  text-align: justify;
+  border: 3px solid black;
+  padding-left: 30px;
+  padding-bottom: 10px;
 }
