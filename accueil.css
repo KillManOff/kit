@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-size: 17px;
+	color: black;
+	line-height: 1.6;
+}
+
+body h1{
+	color: #00643e;
+}
+
+
+#showcase{
+	background-image: url("https://www.credit-agricole.com/var/ca/storage/images/3/2/6/8/2368623-142-fre-FR/20210825_CampusEVG66.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+}
+
+#showcase h1{
+	font-size: 50px;
+
+}
+
+#text{
+	background-image: linear-gradient(180deg, #dddddd, #fff);
+	padding: 20px;
+	position: absolute;
+	top: 30%;
+	width: 60%;
+	border-radius: 20px;
+}
+
+#showcase p{
+	font-size: 18px;
+}
+
+#foot p{
+	font-size: 10px;
+	text-align: center;
+}
+
+#showcase .button{
+	font-size: 18px;
+	text-decoration: none;
+	color: #00643e;
+	border: #00643e 1px solid;
+	padding: 10px 20px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+#showcase .button:hover{
+	background: #00643e;
+	color: #fff;
+}
+
+#calogo{
+  left: 5%;
+  top: 93%;
+  width: 100px;
+  height: 50px;
+  position: fixed;
+}
+
+#sin{
+  right: 5%;
+  top: 92%;
+  width: 20;
+  height: 60px;
+  position: fixed;
+}
+
+#con{
+	background-image: linear-gradient(1deg, #dddddd, #fff);
+	padding: 20px;
+	position: absolute;
+	width: 90%;
+	border-radius: 20px;
+	bottom: 2%;
+	margin-bottom: -15px;
+	margin-left: 50px;
+}
+
+a:hover{
+	color: #00643e;
+}

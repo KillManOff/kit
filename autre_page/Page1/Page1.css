@@ -1,0 +1,146 @@
+*{
+	font-family: Arial, bold;
+}
+
+
+body{
+  background-color: #fff;
+}
+
+.text{
+  position: absolute; 
+	right: 35%;
+  padding-left: 410px;
+}
+
+
+.pre_outils a , .pre_tache a{
+  text-decoration: none;
+}
+
+.pre_outils a:hover, .pre_tache a:hover{
+  color: green;
+}
+
+.pre_outils_gauche{
+  position: absolute;
+  left: 23.5%;
+}
+
+.pre_outils_droite{
+  position: absolute;
+  right: 9%
+}
+
+.rechercher{
+  position: absolute;
+  border: black 1px solid;
+  right: 9%;
+  padding: 5px;
+  padding-right: 10px;
+  margin-top: 5px;
+}
+
+.rechercher img{
+  height: 20px;
+  width: 20px;
+}
+
+.Presentation{
+  margin-left: 350px;
+  margin-right: 130px;
+  text-align: justify;
+}
+
+.polecyber ,.outils, .tache{
+  color: #00643e;
+  font-family: Arial, bold;
+}
+
+h4{
+  font-size: 1.08em;
+}
+
+
+#menu_dynamique {
+  float: left;
+  padding-top: 20px;
+	color: #fff;
+	width: 250px;
+	padding-left: 20px;
+	height: 100vh;
+	background-image: linear-gradient(30deg, #11cf4d, #055e21);
+	border-top-right-radius: 90px;
+  position: fixed;
+  margin-top: -63px;
+  margin-left: -10px;
+}
+
+html{
+  width:100%;
+  height:100%;
+  font-size:100%;
+}
+
+*{
+  box-sizing:border-box
+}
+#menu_dynamique ul {
+    width:200px;
+    list-style:none;
+    padding:0px;
+}
+
+#menu_dynamique ul li {
+    padding:15px 15px;
+    max-height: 55px;
+}
+
+#menu_dynamique ul li a{
+  text-decoration:none;
+  color:#f7f7f7;
+  text-transform:uppercase;
+  
+}
+
+#menu_dynamique ul li:hover {
+    background: #54B6A8;
+    -moz-transition: all .8s; 
+    -webkit-transition: all .8s; 
+    -o-transition: all .8s; 
+    transition: all .8s;
+}
+
+
+#menu_dynamique ul > li > ul{
+  opacity:0;   
+  display:none;
+  z-index:999;
+  border: 1px solid #000;
+  margin-top:-35px;
+  background-color:#54B6A8;
+}
+
+#menu_dynamique ul li:hover > ul {
+  display: block; 
+  position:relative;
+  opacity:1;
+  margin-left:185px
+}
+
+
+#calogo{
+  margin-left: 10px;  
+  position: fixed;
+  height: 10%;
+  width: 7%;
+  top: 90%;
+}
+
+#sin{
+  margin-left: 150px;
+  height: 10%;
+  top: 90%;
+  width: 5%;
+  position: fixed;
+}
