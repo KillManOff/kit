@@ -145,3 +145,11 @@ td{
   padding-left: 30px;
   padding-bottom: 10px;
 }
+
+.pre_glossaire a{
+  text-decoration: none;
+}
+
+.pre_glossaire a:hover{
+  color: green;
+}
