@@ -13,27 +13,8 @@ body h1{
 
 .text{
   position: absolute; 
-	right: 35%;
+	right: 40%;
   padding-left: 410px;
-}
-
-
-.pre_outils a , .pre_tache a{
-  text-decoration: none;
-}
-
-.pre_outils a:hover, .pre_tache a:hover{
-  color: green;
-}
-
-.pre_outils_gauche{
-  position: absolute;
-  left: 23.5%;
-}
-
-.pre_outils_droite{
-  position: absolute;
-  right: 9%
 }
 
 .rechercher{
@@ -51,31 +32,15 @@ body h1{
   width: 20px;
 }
 
-.Presentation{
-  margin-left: 350px;
-  margin-right: 130px;
-  text-align: justify;
-}
-
-.polecyber ,.outils, .tache{
-  color: #00643e;
-  font-family: Arial, bold;
-}
-
-h4{
-  font-size: 1.08em;
-}
-
-
 #menu_dynamique {
   float: left;
   padding-top: 20px;
-	color: #fff;
-	width: 250px;
-	padding-left: 20px;
-	height: 100vh;
-	background-image: linear-gradient(30deg, #11cf4d, #055e21);
-	border-top-right-radius: 90px;
+  color: #fff;
+  width: 250px;
+  padding-left: 20px;
+  height: 100vh;
+  background-image: linear-gradient(30deg, #11cf4d, #055e21);
+  border-top-right-radius: 90px;
   position: fixed;
   margin-top: -63px;
   margin-left: -10px;
@@ -148,4 +113,46 @@ html{
   top: 90%;
   width: 5%;
   position: fixed;
+}
+
+.Presentation{
+  margin-left: 350px;
+  margin-right: 130px;
+  text-align: justify;
+}
+
+.pre_statut_gauche{
+  position: absolute;
+  left: 23.3%;
+}
+
+.pre_statut_droit{
+  position: absolute;
+  right: 1%
+}
+
+.pre_statut_droit li, .pre_statut_gauche li{
+  list-style: none;
+}
+
+#cycle_de_vie{
+  width: 1030px;
+  height: 300px;
+}
+
+.pre_incident a {
+  text-decoration: none;
+}
+
+.pre_incident a:hover {
+  color: green;
+}
+
+.Presentation h2, .Presentation h3 ,.Presentation h4 {
+  color: #00643e;
+}
+
+#ndt {
+  width: 1030px;
+  height: 100px;
 }

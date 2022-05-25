@@ -153,3 +153,7 @@ td{
 .pre_glossaire a:hover{
   color: green;
 }
+
+body h1{
+  color: #00643e;
+}

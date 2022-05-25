@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Page3.css">
+	<title>Incidents</title>
+</head>
+<body>
+	<div class="band">
+		<div class="text">
+			<h1>INCIDENTS</h1>
+		</div>
+		<div class="rechercher">
+			<p><img id="loupe"src="../../Image/loupe.jpg"> RECHERCHER </p>
+		</div>
+	</div>
+
+	<br><br><br>
+
+<!--Début du code pour le menu vertical //Start of the code for the vertical menu-->
+
+	<div id="menu_dynamique">
+		<h2>Credit Agricole</h2><br>
+
+		<ul id="menu-navigation-principale" class="menu">
+			<li id="menu-item-2800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2800">
+				<a title="Accueil" href="../../autre_page/Page1/Page1.html">Accueil</a>
+
+				<li id="menu-item-1065" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1065">
+					<a title="Glossaire" href="../../autre_page/Page2_Glossaire/Page2.html">Glossaire</a>
+				</li>
+
+				<li id="menu-item-1064" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1064">
+					<a title="Procedures" href="#">Procedures</a>
+
+					<ul>
+						<li><a title="Incidents" href="#">Incidents</a></li>
+						<li><a title="Alertes" href="#">Alertes</a></li>
+						<li><a title="Audit" href="#">TI / Audit</a></li>
+					</ul>
+				</li>
+				
+				<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-17">
+					<a title="Contact" href="#">Contact</a>
+				</li>
+				
+				<li id="menu-item-2451" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2451">
+					<a title="Notre Equipe" href="#">Notre Equipe</a>
+				</li>
+				<li id="menu-item-2452" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2452">
+					<a title="Charte graphique" href="#">Charte graphique</a>
+				</li>
+			</li>
+			<img id="calogo"src="../../Image/CA_logo.png" alt="Logo du Credit Agricole">
+			<img id="sin"src="../../Image/sin_logo.PNG" alt="Logo de l'equipe SIN">
+		</ul>
+	</div>
+
+<!--Fin du code pour le menu vertical //End of the code for the vertical menu-->
+
+	<div class="Presentation"><br><br>
+		<div class="pre_incident">
+			<h2 class="incident">4. Incidents de sécurité :</h2>
+			<p>Nous traitons les incidents de sécurité avec l'outil <a href="https://caconsumerfinance.service-now.com/nav_to.do?uri=%2Fsn_si_incident_list.do%3Fsysparm_clear_stack%3Dtrue%26sysparm_query%3D%26sysparm_fixed_query%3D" target="_blank"><strong>SECOPS</strong></a>. Vous pouvez retrouver ci-dessous les éléments importants à connaître.</p>
+		</div><br>
+		<div class="pre_cycledevie">
+			<h3 class="cycledevie">4.1. Cycle de vie d'un incident</h3><p>Pour le cycle de vie d'un incident, nous allons vous montrer l'interface dans SECOPS et comment le piloter de la réception jusqu'à sa fermeture.</p><br>
+			<img id="cycle_de_vie" src="../../Image/cycle_de_vie.png" alt="cycle_de_vie"><br>
+			<h4>4.1.1. Les statuts</h4>
+			<p>Plusieurs statuts existent sur SECOPS. Nous pouvons retrouver : 
+			<div class="pre_statut_gauche">
+				<li><strong>Brouillon :</strong> L'incident qui n'a pas encore été assigné à une personne pour résolution.</li>
+
+				<br>
+
+				<li><strong>Analyse :</strong> L'incident est en cours d'investigation.</li>
+
+				<br>
+
+				<li><strong>Contenir :</strong> L'incident est presque résolu mais il manque une dernière confirmation ou information.</li>
+			</div>
+			<div class="pre_statut_droit">
+
+				<li><strong>Eradiquer :</strong> Une résolution a été mise en place.</li>
+
+				<br>
+
+				<li><strong>Récupérer :</strong> </li>
+
+				<br>
+
+				<li><strong>Fermé :</strong> La résolution a été confirmée, l'incident est donc résolu.</li>
+			</div>
+			</p>
+			<br><br><br><br><br><br>
+			<div class="criticite">
+				<h4>4.1.2. La criticité</h4>
+				<p>Pour chaque incident un niveau de criticité est donné plus il est élevé, plus la vulnérabilité doit être traitée rapidement.</p>
+				<li>Risque <strong>CRITIQUE :</strong> la vulnérabilité doit être traitée dans les plus brefs délais et au <strong><u>maximum dans les deux semaines</u></strong> tout en prenant les mesures conservatoires nécessaires.</li><br>
+				<li>Risque <strong>MAJEUR :</strong> la vulnérabilité doit être traitée <strong>dans le mois.</strong></li><br>
+				<li>Risque <strong>MOYEN :</strong> la vulnérabilité doit être traitée <strong>dans les 3 mois.</strong></li><br>
+				<li>Risque <strong>FAIBLE :</strong> la vulnérabilité doit être traitée <strong>dans les 6 mois.</strong></li>
+			</div>
+			<br><br>
+			<div class="autre">
+				<h4>4.1.3. Autres</h4>
+				<p>Nous devons indiquer le <strong>patrimoine</strong> pour chaque incident. Le patrimoine n'est jamais renseigné, il faut donc mettre CACF.<br><br>Il faut également vérifier <strong>l'origine</strong> de l'incident. S'il est renseigné <strong>SOC</strong> alors l'incident a été declenché par le SOC. S'il est renseigné <strong>CERT</strong> alors l'incident a été declenché par le CERT. Pour finir si l'origine renseignée est <strong>interne</strong> c'est un incident créé par l'équipe.<br><br>La dernière chose à faire est de renseigner la personne affectée à l'incident.</p>
+			</div><br>
+			<div class="Suivi_incident">
+				<h3 class="Suivi_incident">4.2. Suivi d'un incident</h3>
+				<p>Dans chaque incident un emplacement appelé <strong>Notes de travail</strong> est reservé pour assurer un suivi de l'incident et pour permettre aux personnes d'écrire les actions qui ont été réalisées.</p>
+				<img src="../../Image/ndt.png" alt="note de travail" id="ndt">
+			</div>
+			
+			<br><br><br><br><br><br><br><br>
+
+		</div>
+	</div>
+</body>
+</html>
