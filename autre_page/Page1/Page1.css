@@ -28,12 +28,12 @@ body h1{
 
 .pre_outils_gauche{
   position: absolute;
-  left: 23.5%;
+  left: 27%;
 }
 
 .pre_outils_droite{
   position: absolute;
-  right: 9%
+  margin-right: 2px;
 }
 
 .rechercher{
