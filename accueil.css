@@ -85,7 +85,7 @@ body h1{
 #con{
 	background-image: linear-gradient(1deg, #dddddd, #fff);
 	padding: 25px;
-	position: absolute;
+	position: fixed;
 	width: 90%;
 	border-radius: 20px;
 	bottom: 2%;
