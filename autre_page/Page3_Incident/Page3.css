@@ -136,8 +136,8 @@ html{
 }
 
 #cycle_de_vie{
-  width: 1030px;
-  height: 300px;
+  width: 105%;
+  height: 100%;
 }
 
 .pre_incident a {
@@ -153,6 +153,6 @@ html{
 }
 
 #ndt {
-  width: 1030px;
-  height: 100px;
+  width: 105%;
+  height: 100%;
 }
