@@ -90,6 +90,11 @@ html{
 *{
   box-sizing:border-box
 }
+
+#menu_dynamique #menu-navigation-principale #menu-item-1064 #incident ul{
+  width: 300px;
+}
+
 #menu_dynamique ul {
     width:200px;
     list-style:none;
@@ -98,7 +103,7 @@ html{
 
 #menu_dynamique ul li {
     padding:15px 15px;
-    max-height: 55px;
+    max-height: 47px;
 }
 
 #menu_dynamique ul li a{

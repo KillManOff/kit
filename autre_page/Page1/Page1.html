@@ -29,7 +29,7 @@
 
 		<ul id="menu-navigation-principale" class="menu">
 			<li id="menu-item-2800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2800">
-				<a title="Accueil" href="#">Accueil</a>
+				<a title="Accueil" href="../../autre_page/Page1/Page1.html">Accueil</a></li>
 
 				<li id="menu-item-1065" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1065">
 					<a title="Glossaire" href="../../autre_page/Page2_Glossaire/Page2.html">Glossaire</a>
@@ -39,13 +39,25 @@
 					<a title="Procedures" href="#">Procedures</a>
 
 					<ul>
-						<li><a title="Incidents" href="../../autre_page/Page3_Incident/Page3.html">Incidents</a></li>
+						<li id="incident"><a title="Incidents" href="../../autre_page/Page3_Incident/Page3.html">Incidents</a>
+							<ul>
+								<li><a title="Attaque web" href="../../autre_page/Page3_Incident/Toutes_categories/Attaque_web/Attaque_web.html">Attaque web</a></li>
+								<li><a title="Déni de service DOS/DDOS" href="../../autre_page/Page3_Incident/Toutes_categories/Deni_service/Deni_service.html">Déni de service DOS/DDOS</a></li>
+								<li><a title="DLP" href="../../autre_page/Page3_Incident/Toutes_categories/DLP/DLP.html">DPL</a></li>
+								<li><a title="Exploitation faiblesse humaine" href="../../autre_page/Page3_Incident/Toutes_categories/exploit_faiblesse/exploit_faiblesse.html">Exploitation faiblesse humaine</a></li>
+								<li><a title="Exploitation vulnérabilités" href="../../autre_page/Page3_Incident/Toutes_categories/exploit_vul/exploit_vul.html">Exploitation vulnérabilités</a></li>
+								<li><a title="Infection malware" href="../../autre_page/Page3_Incident/Toutes_categories/infection_malware/infection_malware.html">Infection malware</a></li>
+								<li><a title="Perte / Vol de matériel" href="../../autre_page/Page3_Incident/Toutes_categories/perte_vol/perte_vol.html">Perte / Vol de matériel</a></li>
+								<li><a title="Intrusion systèmes et réseau" href="../../autre_page/Page3_Incident/Toutes_categories/intrusion/intrusion.html">Intrusion systèmes et réseau</a></li><br>
+								<li><a title="Phising/SPAM" href="../../autre_page/Page3_Incident/Toutes_categories/phising_spam/phising_spam.html">Phising / SPAM</a></li>
+								<li><a title="Usurpation / Abus de droits" href="../../autre_page/Page3_Incident/Toutes_categories/usurpation_abus/usurpation_abus.html">Usurpation / Abus de droits</a></li>
+								<li><a title="Autre" href="../../autre_page/Page3_Incident/Toutes_categories/autre/autre.html">Autre</a></li>
+							</ul>
+						</li>
 						<li><a title="Alertes" href="#">Alertes</a></li>
 						<li><a title="Audit" href="#">TI / Audit</a></li>
 					</ul>
 				</li>
-
-				
 				
 				<li id="menu-item-17" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-17">
 					<a title="Contact" href="#">Contact</a>
@@ -57,7 +69,7 @@
 				<li id="menu-item-2452" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2452">
 					<a title="Charte graphique" href="#">Charte graphique</a>
 				</li>
-			</li>
+			
 			<img id="calogo"src="../../Image/CA_logo.png" alt="Logo du Credit Agricole">
 			<img id="sin"src="../../Image/sin_logo.PNG" alt="Logo de l'equipe SIN">
 		</ul>
@@ -93,14 +105,22 @@
 			<h2 class="outils">Les outils</h2>
 
 			<!--Ici j'ai voulu rendre la présentation de nos outils plus esthétique. Pour cela j'ai créé un div pour la partie gauche et un autre pour la partie droite. //Here I wanted to make the presentation of our tools more aesthetic. For this, I created a div for the left part and another one for the right part. -->
-
-			<a href="https://sso.ca-sa.group.gca/auth2/auth/chooseschema?sourceURL=https://sso.ca-sa.group.gca/samlv2/SSOIDPInit/IdPAccess/2025_N8_galatee_internet?spEntityID%3DsmartcasassoInternet%26RelayState%3Dhttps://smartrh.credit-agricole.fr/smartcasa/srh/smartrh/smartrh?smartrh%3Dlogon%26assertion%3Dtrue%26NameIDFormat%3DemailAddress%26tabId%3D1677160103" target="_blank"><strong>GALATEE :</strong></a> portail « RH » pour réaliser le pointage RH de ton activité, les CP/RTT<br><br>
-			<a href="https://caconsumerfinance.service-now.com/" target="_blank"><strong>Service Now :</strong></a> Gestion des demandes de services <br><br>
-			<a href="https://caconsumerfinance.service-now.com/nav_to.do?uri=%2Fsn_si_incident_list.do%3Fsysparm_clear_stack%3Dtrue%26sysparm_query%3D%26sysparm_fixed_query%3D" target="_blank"><strong>SECOPS :</strong></a> Gestions des incidents, alertes et failles de sécurité<br><br>
-			<a href="https://sast.sopra.partenaires.group.gca/" target="_blank"><strong>CHECKMARX : </strong></a>Audit de code<br><br>
-			<a href="https://www.httpcs.com/fr/utilisateur/connexion" target="_blank"><strong>HTTPS : </strong></a>SVA : Scanner de Vulnérabilités Automatisé<br><br>
-			<a href="https://atlas.ca-cf.gca/" target="_blank"><strong>ATLAS : </strong></a>Base de données<br><br>
-			<a href="https://dashboard.cert-ag.com/vuln.html" target="_blank"><strong>CERT CA : </strong></a>Vulnérabilité détectée par le Crédit Agricole</p>
+			<div class="Outil_RH">
+				<h3 class="Outil_RH">Outils RH :</h3>
+				<a href="https://sso.ca-sa.group.gca/auth2/auth/chooseschema?sourceURL=https://sso.ca-sa.group.gca/samlv2/SSOIDPInit/IdPAccess/2025_N8_galatee_internet?spEntityID%3DsmartcasassoInternet%26RelayState%3Dhttps://smartrh.credit-agricole.fr/smartcasa/srh/smartrh/smartrh?smartrh%3Dlogon%26assertion%3Dtrue%26NameIDFormat%3DemailAddress%26tabId%3D1677160103" target="_blank"><strong>GALATEE :</strong></a> portail « RH » pour réaliser le pointage RH de ton activité, les CP/RTT<br>
+			</div><br>
+			<div class="Outil_Fonctionnel">
+				<h3 class="Outil_Fonctionnel">Outils fonctionnels :</h3>
+				<a href="https://sast.sopra.partenaires.group.gca/" target="_blank"><strong>CHECKMARX : </strong></a>Audit de code<br><br>
+				<a href="https://www.httpcs.com/fr/utilisateur/connexion" target="_blank"><strong>HTTPS : </strong></a>SVA : Scanner de Vulnérabilités Automatisé<br><br>
+				<a href="https://dashboard.cert-ag.com/vuln.html" target="_blank"><strong>CERT CA : </strong></a>Vulnérabilité détectée par le Crédit Agricole</p>
+				<a href="https://atlas.ca-cf.gca/" target="_blank"><strong>ATLAS : </strong></a>Base de données
+			</div><br>
+			<div class="Outil_Technique">
+				<h3 class="Outil_Technique">Outils techniques :</h3>
+				<a href="https://caconsumerfinance.service-now.com/" target="_blank"><strong>Service Now :</strong></a> Gestion des demandes de services <br><br>
+				<a href="https://caconsumerfinance.service-now.com/nav_to.do?uri=%2Fsn_si_incident_list.do%3Fsysparm_clear_stack%3Dtrue%26sysparm_query%3D%26sysparm_fixed_query%3D" target="_blank"><strong>SECOPS :</strong></a> Gestions des incidents, alertes et failles de sécurité<br>
+			</div>
 		</div>
 
 		<!--Fin du code pour la présentation de nos outils //End of the code for the presentation of our tools-->
